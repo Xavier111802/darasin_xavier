@@ -1972,3 +1972,39 @@
             }
         }
         
+             /* hamburger menu toggle for 1000px and below */
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: rgba(202, 34, 107, 0.95);
+    list-style: none;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 0;
+    z-index: 100;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .navbar ul li a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  #menu {
+    display: block;
+    cursor: pointer;
+  }
+}

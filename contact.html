@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="navbar">
+            <a id="logo" href="index.html">MY PORTFOLIO</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <span id="menu">&#9776;</span>
+        </div>
+
+        <div class="text-section">
+            <ul>
+                <li><a href="https://www.facebook.com/XavierAngelo18" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/xavgelo" target="_blank">Instagram</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Gmail</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const menu = document.getElementById("menu");
+            const navList = document.querySelector(".navbar ul");
+            const navLinks = document.querySelectorAll(".navbar ul li a");
+
+            if (menu && navList) {
+                menu.addEventListener("click", () => {
+                    navList.classList.toggle("show");
+                });
+
+                navLinks.forEach(link => {
+                    link.addEventListener("click", () => {
+                        navList.classList.remove("show");
+                    });
+                });
+
+                window.addEventListener("resize", () => {
+                    if (window.innerWidth > 1000) {
+                        navList.classList.remove("show");
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

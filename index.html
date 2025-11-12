@@ -2,40 +2,64 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
+
 </head>
 
 <body>
 
-    <div class="grid-container">
-        <div class="navbar">
-            <a id="logo" href="">MY PORTFOLIO</a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+<div class="grid-container">
+<div class="navbar">
+<a id="logo" href="">MY PORTFOLIO</a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 
-            <span id="menu">&#9776;</span>
-        </div>
+<span id="menu">&#9776;</span>
+</div>
 
-        <div class="image-section">
-            <img src="xavier.jpg" alt="">
-        </div>
+<div class="image-section">
+<img src="xavier.jpg" alt="">
+</div>
 
-        <div class="text-section">
-            <ul>
-                <li>HI! I'M</li>
-                <li>XAVIER ANGELO DARASIN</li>
-                <li>ISAIAH 60:22</li>
-                <li>"WHEN THE TIME IS RIGHT, I THE LORD WILL MAKE IT HAPPEN"</li>
-            </ul>
-        </div>
+<div class="text-section">
+<ul>
+<li>HI! I'M</li>
+<li>XAVIER ANGELO DARASIN</li>
+<li>ISAIAH 60:22</li>
+<li>"WHEN THE TIME IS RIGHT, I THE LORD WILL MAKE IT HAPPEN"</li>
+</ul>
+</div>
 
-        <div class="footer">
-        </div>
-    </div>
+<div class="footer">
+</div>
+</div>
+
+<script>
+  const menu = document.getElementById('menu');
+  const navList = document.querySelector('.navbar ul');
+  const navLinks = document.querySelectorAll('.navbar ul li a');
+
+  menu.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navList.classList.remove('show');
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 1000) {
+      navList.classList.remove('show');
+    }
+  });
+</script>
+
 
 </body>
 

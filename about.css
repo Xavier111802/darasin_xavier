@@ -1,0 +1,5021 @@
+               @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+        * {
+            margin: 0;
+            padding: 1;
+        }
+
+        body {
+          background-image: url("true.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        .grid-container>div {
+            font-size: 55px;
+            /* outline: 3px solid rgb(10, 28, 226); */
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+        }
+
+        .menu-bar {
+            display: none !important;
+        }
+
+        .navbar {
+            grid-column: 1/11;
+            padding: 20px;
+            background-color: #CA226B;
+            color: white;
+            
+
+            ul {
+                /* background-color: rgb(25, 0, 254);
+                border-radius: 40px;
+                padding: 20px; */
+                float: right;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            /* li:nth-child(1) {
+                position: absolute;
+                left: 0;
+            } */
+
+            li {
+                padding-inline: 20px;
+            }
+
+            a {
+                font-size: 2rem;
+                font-family: "Graduate", serif;
+                font-weight: 600;
+                font-style: normal;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                text-shadow:  2px 2px 4px rgba(3, 3, 3, 3.3);
+            }
+
+            #logo:hover {
+                /* background-color: rgb(208, 255, 1);
+                color: black; */
+                /* font-size: 3rem;
+                transform: scale(2.1); */
+                /* 
+                padding: 20px; */
+            }
+
+            #logo {
+                position: absolute;
+                left: 1;
+                border-radius: 40px;
+                transition: 0.4s ease-in-out;
+                font-size: 4rem;
+                text-shadow:  2px 2px 4px rgba(3, 3, 3, 3.3);
+            }
+
+            #menu {
+                display: none;
+            }
+        }
+
+        .image-section {
+            grid-column: 1/4;
+            text-align: center;
+            padding: 4rem 0px 0px 0px;
+
+            img {
+                border-radius: 50%;
+                width: 70%;
+                height: auto;
+            }
+        }
+
+        .text-section {
+            grid-column: 4/11;
+            display: grid;
+            place-content: center;
+            color: #CA226B;
+            text-shadow: 2px 2px 0px black, -2px -2px 0px black, 
+                2px -2px 0px black, -2px 2px 0px black;;
+
+            ul {
+                display: flex;
+                list-style: none;
+                flex-direction: column;
+                margin-right: 4.5rem;
+            }
+
+            li:nth-child(1) {
+                font-family: "Graduate", serif;
+                font-weight: 500;
+                font-size: 3.6rem;
+                padding-top: 13rem;
+                
+               
+            }
+
+            li:nth-child(2) {
+                font-family: "Graduate", serif;
+                padding-top: 0.5rem;
+                font-size: 3.6rem;
+                
+                   
+            }
+
+            li:nth-child(3) {
+                font-family: "Graduate", serif;
+                font-size: 3.6rem;
+                padding-top: 1rem;
+            
+
+            }
+
+             li:nth-child(4){
+                font-family: "Graduate", serif;
+                font-size: 3.6rem;
+                padding-top: 5rem;
+
+            }
+        }
+
+        .footer {
+            grid-column: 1/11;
+            height: 10vh;
+        }
+
+       
+       
+       @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+       @media screen and (max-width: 1400px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 35px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                }
+            }
+            body {
+                background-image: url("true.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                    border-radius: 50%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: #CA226B;
+                text-shadow: 2px 2px 0px black, -2px -2px 0px black, 
+                2px -2px 0px black, -2px 2px 0px black;
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.5rem;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.5rem;
+                    
+                }
+                
+                li:nth-child(3) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.5rem;
+                
+                }
+
+                li:nth-child(4){
+                font-family: "Graduate", serif;
+                font-size: 3.5rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1302px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 35px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                    margin-top: 5px;
+                }
+            }
+            body {
+                background-image: url("true.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                    border-radius: 50%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: #CA226B;
+                text-shadow: 2px 2px 0px black, -2px -2px 0px black, 
+                2px -2px 0px black, -2px 2px 0px black;
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.4rem;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.4rem;
+                    
+                }
+                
+                li:nth-child(3) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.4rem;
+                
+                }
+
+                li:nth-child(4){
+                font-family: "Graduate", serif;
+                font-size: 3.4rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1300px) {
+            .navbar {
+                background-color: blueviolet;
+                
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 30px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                }
+            }
+            
+            body {
+                background-image: url("sl.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: rgb(255, 254, 254);
+                text-shadow: 2px 2px 0px blueviolet, -2px -2px 0px blueviolet, 
+                2px -2px 0px blueviolet, -2px 2px 0px blueviolet;
+                
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.4rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3.4rem;
+                }
+                
+                li:nth-child(3) {
+                    font-size: 3.4rem;
+                
+                }
+                li:nth-child(4) {
+                    font-size: 3.4rem;    
+                
+                }
+            }
+        }
+
+        @media screen and (max-width: 1270px) {
+            .navbar {
+                background-color: blueviolet;
+                
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 30px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                }
+            }
+            
+            body {
+                background-image: url("sl.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: rgb(255, 254, 254);
+                text-shadow: 2px 2px 0px blueviolet, -2px -2px 0px blueviolet, 
+                2px -2px 0px blueviolet, -2px 2px 0px blueviolet;
+                
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.3rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3.3rem;
+                }
+                
+                li:nth-child(3) {
+                    font-size: 3.3rem;
+                
+                }
+                li:nth-child(4) {
+                    font-size: 3.3rem;    
+                
+                }
+            }
+        }
+
+        @media screen and (max-width: 1237px) {
+            .navbar {
+                background-color: blueviolet;
+                
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 30px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                }
+            }
+            
+            body {
+                background-image: url("sl.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: rgb(255, 254, 254);
+                text-shadow: 2px 2px 0px blueviolet, -2px -2px 0px blueviolet, 
+                2px -2px 0px blueviolet, -2px 2px 0px blueviolet;
+                
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.2rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3.2rem;
+                }
+                
+                li:nth-child(3) {
+                    font-size: 3.2rem;
+                
+                }
+                li:nth-child(4) {
+                    font-size: 3.2rem;    
+                
+                }
+            }
+        }
+
+        @media screen and (max-width: 1204px) {
+            .navbar {
+                background-color: blueviolet;
+                
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 30px;
+                }
+
+                #logo {
+                    font-size: 60px;
+                    margin-left: 10px;
+                }
+            }
+            
+            body {
+                background-image: url("sl.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 70%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                color: rgb(255, 254, 254);
+                text-shadow: 2px 2px 0px blueviolet, -2px -2px 0px blueviolet, 
+                2px -2px 0px blueviolet, -2px 2px 0px blueviolet;
+                
+  
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;
+                    font-size: 3.1rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3.1rem;
+                }
+                
+                li:nth-child(3) {
+                    font-size: 3.1rem;
+                
+                }
+                li:nth-child(4) {
+                    font-size: 3.1rem;    
+                
+                }
+            }
+        }
+
+       
+       
+       @media screen and (max-width: 1200px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                    background-size: cover;
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 3rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 3rem;
+                }
+                li:nth-child(3) {
+                    font-size: 3rem;
+                }
+                li:nth-child(4) {
+                    font-size: 3rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1139px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                    background-size: cover;
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.9rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.9rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.9rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.9rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1107px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                    background-size: cover;
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.8rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.8rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.8rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.8rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.8rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.8rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.8rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.8rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1074px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.7rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.7rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.7rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.7rem;        
+                }
+            }
+        }
+
+        
+
+        @media screen and (max-width: 1050px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.6rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.6rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.6rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.6rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1030px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.6rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.6rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.6rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.6rem;        
+                }
+            }
+        }
+
+        @media screen and (max-width: 1009px) {
+            .navbar {
+
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    color: white;
+                    font-size: 25px;
+                }
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                }
+            }
+
+            .image-section {
+                grid-column: 1/4;
+
+                img{
+                    width: 65%;
+                }
+            }
+
+            .text-section {
+                grid-column: 4/11;
+                transition: 0.4s ease-in-out;
+                
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2.5rem;
+                }
+
+                li:nth-child(2) {
+                    font-size: 2.5rem;
+                }
+                li:nth-child(3) {
+                    font-size: 2.5rem;
+                }
+                li:nth-child(4) {
+                    font-size: 2.5rem;        
+                }
+            }
+        }
+        
+         @media screen and (max-width: 1000px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 45%;
+                    margin-left: 20px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 30px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-right: 30px;
+                }
+                li:nth-child(3) {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-right: 30px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.3rem;  
+                    text-align: center;
+                    padding-right: 30px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 950px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 45%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 35px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-right: 35px;
+                }
+                li:nth-child(3) {
+                    font-size: 2rem;
+                    text-align: center;
+                    padding-right: 35px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.3rem;  
+                    text-align: center;
+                    padding-right: 35px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 914px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 45%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 35px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-right: 35px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-right: 35px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.2rem;  
+                    text-align: center;
+                    padding-right: 35px;      
+                }
+            }
+        }
+        
+
+        @media screen and (max-width: 900px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.9rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.3rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 860px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.8rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.8rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.2rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 823px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.1rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 806px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 45px;
+                }    
+
+                #logo {
+                    font-size: 50px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.1rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 38px;
+                }    
+
+                #logo {
+                    font-size: 45px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2.1rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 785px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 38px;
+                }    
+
+                #logo {
+                    font-size: 45px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 755px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 35px;
+                }    
+
+                #logo {
+                    font-size: 40px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 2rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 747px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 35px;
+                }    
+
+                #logo {
+                    font-size: 40px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.9rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 710px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                 #menu {
+                    display: block;
+                    float: right;
+                    font-size: 35px;
+                }    
+
+                #logo {
+                    font-size: 40px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.8rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+        
+        @media screen and (max-width: 700px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 42%;
+                    margin-left: 18px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.8rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 672px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 16px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.3rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.3rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.3rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.7rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 624px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 16px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.6rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 620px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 14px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.6rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 14px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.6rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 592px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 14px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.5rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 585px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 14px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.5rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 554px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 30px;
+                }    
+
+                #logo {
+                    font-size: 35px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("tokg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 14px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 551px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 522px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 19px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 19px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 19px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 19px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 521px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 18px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 18px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 18px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 18px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 520px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 17px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 17px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 17px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 17px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 519px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 16px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 16px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 16px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 16px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 518px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 517px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 516px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 14px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 14px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 14px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 14px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 515px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 13px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 13px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 13px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 13px;      
+                }
+            }
+        }
+
+         @media screen and (max-width: 514px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 12px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 12px;
+                }
+                li:nth-child(3) {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding-right: 12px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.4rem;  
+                    text-align: center;
+                    padding-right: 12px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 513px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 12px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.3rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 484px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-right: 12px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.2rem;  
+                    text-align: center;
+                    padding-right: 12px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 476px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.2rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.2rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 441px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 11px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 11px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 11px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.1rem;  
+                    text-align: center;
+                    padding-right: 11px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 437px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.1rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 436px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 9px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 9px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 9px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.1rem;  
+                    text-align: center;
+                    padding-right: 9px;      
+                }
+            }
+        }
+        @media screen and (max-width: 435px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 8px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 8px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-right: 8px;
+                }
+                li:nth-child(4) {
+                    font-size: 1.1rem;  
+                    text-align: center;
+                    padding-right: 8px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 415px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 7px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 5px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 7px;
+                }
+                li:nth-child(4) {
+                    font-size: 1rem;  
+                    text-align: center;
+                    padding-right: 8px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 409px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 15px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 15px;
+                }
+                li:nth-child(4) {
+                    font-size: 1rem;  
+                    text-align: center;
+                    padding-right: 15px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 404px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 381px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 380px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 8px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 366px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 10px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 10px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 10px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 361px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 8px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 8px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 8px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 8px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 358px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 7px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 7px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 7px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 7px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 357px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 6px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 6px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 6px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 6px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 356px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 5px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 5px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 5px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 5px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 355px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 28px;
+                }    
+
+                #logo {
+                    font-size: 30px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 6px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/11;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 4px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 4px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 4px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.9rem;  
+                    text-align: center;
+                    padding-right: 4px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 347px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 26px;
+                }    
+
+                #logo {
+                    font-size: 26px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 20px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/10;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.7rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 312px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 24px;
+                }    
+
+                #logo {
+                    font-size: 24px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 20px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/10;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.6rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 313px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 24px;
+                }    
+
+                #logo {
+                    font-size: 24px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 20px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/10;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.6rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.6rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+
+        @media screen and (max-width: 278px) {
+            .navbar {
+                    background-color: rgba(255, 255, 255, 0);
+                ul{
+                    background-color: rgba(255, 255, 255, 0);
+                }
+
+                ul li a{
+                    /* color: white; */
+                    /* font-size: 25px; */
+                    display: none;
+                }
+
+                #menu {
+                    display: block;
+                    float: right;
+                    font-size: 22px;
+                }    
+
+                #logo {
+                    font-size: 22px;
+                    margin-left: 10px;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            body {
+                background-image: url("obitox.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+
+            .image-section {
+                grid-column: 2/10;
+                
+
+                img{
+                    width: 40%;
+                    margin-left: 20px;
+                    
+                }
+            }
+
+            .text-section {
+                grid-column: 2/10;
+                transition: 0.4s ease-in-out;
+                text-shadow: 1.5px 1.5px 0px black, -1.5px -1.5px 0px black, 
+                1.5px -1.5px 0px black, -1.5px 1.5px 0px black;
+
+                li:nth-child(1) {
+                    font-family: "Graduate", serif;;
+                    font-size: 0.7rem;
+                    text-align: center;
+                    padding-top: 80px;
+                    padding-right: 20px;
+                    
+                }
+
+                li:nth-child(2) {
+                    font-size: 0.5rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(3) {
+                    font-size: 0.5rem;
+                    text-align: center;
+                    padding-right: 20px;
+                }
+                li:nth-child(4) {
+                    font-size: 0.5rem;  
+                    text-align: center;
+                    padding-right: 20px;      
+                }
+            }
+        }
+        
